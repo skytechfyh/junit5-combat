@@ -20,7 +20,7 @@ public class Calculator {
 	 * 加法
 	 */
 	public static int add(int x, int y) {
-		result = x + y;
+		int result = x + y;
 		try {
 			Thread.sleep(1000);
 		} catch (InterruptedException e) {
@@ -81,7 +81,7 @@ public class Calculator {
 	 * 减法
 	 */
 	public static int subtract(int x, int y){
-		result = x - y;
+		int result = x - y;
 		try {
 			Thread.sleep(1000);
 		} catch (InterruptedException e) {
